@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+.background {
+    padding-top: 150px;
+    background: #0000008f;
+}
+
+.jumbotron {
+  /*background: #358CCE;*/
+  
+  
+  background-image: url(../images/renovate.jpg);
+  color: #FFF;
+  border-radius: 0px;
+  background-size: cover;
+}
+
+.jumbotron-sm {
+  padding-top: 0PX;
+  padding-bottom: 0PX;
+}
+
+.jumbotron small {
+  color: #FFF;
+}
+
+.header {
+  height: 150px;
+}
+
+.card {
+  position: relative;
+  top: -185px;
+  margin-bottom: 50px;
+}
+
+.cardStyle {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgb(221, 221, 221);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/*.cardStyle:before {
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  top: 0;
+  left: -30px;
+  content: " ";
+  display: block;*/
+  /* z-index: 200; 
+  
+  background: url("http://al2015.gatesnotesazure.com/assets/media/images/top-shadow-left.png") no-repeat;
+}*/
+
+/*.cardStyle:after {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -30px;
+  content: " ";
+  display: block;
+   z-index: 200; 
+  
+  background: url("http://al2015.gatesnotesazure.com/assets/media/images/top-shadow-right.png") no-repeat;
+}*/
+
+.h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.h1 small {
+  color: #ddd;
+  font-size: 25px;
+}
+
+.h1,
+.h3,
+small,
+label,
+.modal-title {
+  font-family: Lato;
+  font-weight: 300;
+}
+
+label {
+  color: #666;
+  font-weight: 400;
+}
+
+.h1 .fa-envelope {
+  font-size: 35px;
+}
+
+.btn-success {
+  padding: 10px 25px;
+}
+.map{
+  width: 100%;
+  margin-bottom:-3px;
+}

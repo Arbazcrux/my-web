@@ -1,0 +1,817 @@
+select.select {
+    padding: 10px 15px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+    font-family: cursive;
+    color: #625959;
+}
+#form-container{
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 475px;
+    transform: translate(-50%, -50%);
+    background-image: url(../images/renovate.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px #000;
+
+}
+
+.form {
+    width: 400px;
+    height: 530px;
+    position: absolute;
+    right: 50px;
+    top: -15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #000;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.form h1{
+    text-align: center;
+    font-family: fantasy;
+    color: #0cf;
+}
+
+.form input[type=text]:nth-child(2) {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.form input[type=text], .form input[type=password], .form input[type=number], .form input[type=email], .form textarea {
+    padding: 10px 15px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+    font-family: cursive;
+}
+
+.form input[type=submit]{
+    width: 250px;
+    background-color: #0cf;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: monsterrat-Regular;
+    color: #fff;
+    padding: 10px 0px;
+    height: auto;
+}
+
+.formFooter{
+    width: 100%;
+    height: 70px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #eee;
+    text-align: center;
+    font-family: cursive;
+    color: #aaa;
+}
+
+
+
+
+
+
+.service {
+    height: 680px;
+    background-size: cover;
+    padding-top: 0;
+    background: url(../images/electration.jpg);
+}
+.bg {
+    background-image: url(../images/carpenter.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgElect {
+    background-image: url(../images/electration.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgAc {
+    background-image: url(../images/acrepair.png);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgPaint {
+    background-image: url(../images/painter.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgMason {
+    background-image: url(../images/mason.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgMotor {
+    background-image: url(../images/thumbnail.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgPlumber {
+    background-image: url(../images/plumber.jpeg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.bgElectronic {
+    background-image: url(../images/electronic.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0px
+}
+.side {
+    width: 60%;
+    display: inline-block;
+}
+
+h1.electrician::after {
+    content: "";
+    background-color: black;
+    width: 21%;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 19px;
+}
+
+
+
+
+
+
+header{
+	background-color: #69655a;
+}
+div.container-fluid div {
+    position: relative;
+}
+div.container-fluid h1 {
+    display: inline-block;
+    width: 84%;
+    text-align: center;
+    margin: 0;
+    font-size: 62px;
+    position: absolute;
+    top: 33px;
+    color: black;
+}
+div.container-fluid p {
+    font-size: 22px;
+    display: inline-block;
+}
+.navbar-inverse {
+    margin: 0;
+}
+.bgImg {
+    min-height: 1141px;
+    background-image: url(../images/4.jpg);
+    opacity: 0.7;
+    background-position: right;
+    background-attachment: fixed;
+}
+span.heading {
+    font-size: 36px;
+    background-color:#69655a;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin: 17px auto;
+    opacity: 0.9;
+    text-align:center;
+    color: white;
+}
+span.headingTwo {
+    font-size: 19px;
+    background-color: #69655a;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+h1.linkTwo::after {
+    background-color: black;
+    height: 9px;
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 20%;
+}
+
+div.paraOne p {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+h1.linkTwo {
+    font-size: 47pt;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 73px;
+}
+.paraOne {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+}
+.mainBoxTwo {
+    margin-top: 75px;
+}
+.mainBoxTwo a {
+    box-shadow: 8px 2px 9px black;
+    height: 115px;
+    border-radius: 35px;
+    padding: 7px 12px 7px;
+    display: block;
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 100%;
+}
+.mainBoxTwo h1 {
+    width: 85%;
+    margin: 6px auto;
+    color: crimson;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+a img {
+    width: 87px;
+    display: block;
+    margin: 0 auto;
+}
+section.my {
+    height: 500px;
+    position: relative;
+}
+
+.boxTwo {
+    width: 33%;
+    min-height: 122px;
+    display: inline-block;
+    float: left;
+    margin: 36px auto;
+    border-right: 1px solid;
+}
+.boxTwo:nth-child(3) {
+    border: none;
+}
+.boxTwo h2 {
+    font-size: 27px;
+}
+.boxTwo h2::after {
+    content: '';
+    display: block;
+    background-color: white;
+    height: 2px;
+    margin: 10px auto;
+    width: 23%;
+}
+.navbar-inverse {
+    margin: 0px;
+    margin-top: -1px;
+    border-radius: unset;
+}
+.mainBoxTwo a:hover {
+    background-color: #dee8f0
+}
+
+
+@media (min-width: 320px) and (max-width: 991px){
+
+
+section.contactUs{
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+div.container-fluid h1 {
+    width: 58%;
+    height: 42px;
+    margin: 0;
+    font-size: 45px;
+    position: absolute;
+    top: 24px;
+}
+div.container-fluid p {
+    display: block;
+}
+nav.navbar.navbar-default.sidebar.myNav {
+    margin-bottom: 0;
+}
+span.heading {
+        font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 12px auto;
+}
+span.headingTwo {
+    text-align: center;
+    font-size: 13px;
+    width: 93%;
+    margin: 0 auto;
+}
+section.one {
+    position: absolute;
+    top: 128px;
+    right: 0px;
+}
+h1.linkTwo {
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 23px;
+}
+.bgImg {
+    min-height: 1200px;
+    background-image: url(../images/4.jpg);
+    opacity: 0.7;
+    background-position: right;
+    background-attachment: fixed;
+}
+.one h1 {
+    font-size: 29pt;
+}
+.paraOne {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}.mainBox {
+    top: 244px;
+    left: -4px;
+}
+.boxTwo {
+    width: 100%;
+    min-height: 122px;
+    display: block;
+    float: none;
+    margin: 21px auto;
+    border: none;
+}
+.boxTwo h2 {
+    font-size: 23px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+}
+}
+
+/*BOOTSNIP CLASS EDITING*/
+ul.nav.navbar-nav.navbar-right.floatLeft {
+    float: none!important;
+    font-size: 17px;
+}
+li.marginAuto {
+    margin: 0 auto;
+    width: 20%;
+}
+
+/*ECECTIRIAN FORM*/
+/*section {
+    height: 560px;
+    background-image: url(../images/electration.jpg);
+    background-attachment: fixed;
+    opacity: 0.8;
+    background-position-x: right;
+}*/
+section.paint{
+    background-image: url(../images/painter.jpg);
+    background-position: center;
+}
+section.carpenter{
+    background-image: url(../images/carpenter.jpg);
+}
+section.AC{
+    background-image: url(../images/acrepair.png);
+}
+section.motor{
+    background-image: url(../images/thumbnail.jpg);
+    background-position-x: right;
+}
+section.plumber{
+    background-image: url(../images/plumber.jpeg);
+}
+section.electronic{
+    background-image: url(../images/electronic.jpg);
+}
+section.mason{
+    background-image: url(../images/mason.jpg);
+    background-position-y:bottom;
+}
+h1.electrician {
+    text-align: center;
+    font-size: 51px;
+    color: black;
+    font-family: monospace;
+}
+h1.motor {
+    text-align: center;
+    font-size: 51px;
+    color: black;
+}
+h1.ac {
+    text-align: center;
+    font-size: 51px;
+    color: black;
+}
+p.electrician {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    font-size: large;
+    color: black;
+    font-family: cursive;
+}
+.order{
+    text-align: center;
+    color: black;
+    margin-top:25px;
+}
+/*input[type="text"] {
+    display: block;
+    width: 36%;
+    margin: 0 auto;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}*/
+input[type="tel"]{
+    display: block;
+    width: 36%;
+    margin: 0 auto;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+input[type="email"]{
+    display: block;
+    width: 36%;
+    margin: 0 auto;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    display: block;
+    width: 36%;
+    margin: 0 auto;
+    height: 64px;
+    border: 1px solid #69655a;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #69655a;
+    color: white;
+    font-weight: bolder;
+    font-size: 27px;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
+textarea{
+    display: block;
+    width: 36%;
+    margin: 0 auto;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+@media (min-width: 320px) and (max-width: 767px){
+    section {
+    height: 623px;
+    background-attachment: fixed;
+}
+
+h1.electrician {
+    font-size: 32px;
+}
+h1.motor {
+    font-size: 32px;
+}
+h1.ac {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+p.electrician {
+    width: unset;
+    height: auto;
+}
+ input[type="text"] {
+    width: 100%;
+}
+ input[type="tel"] {
+    width: 100%;
+}
+ input[type="email"] {
+    width: 100%;
+}
+textarea{
+    width: 100%
+}
+ input[type="submit"] {
+    width: 100%;
+}
+.bg {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgElectronic {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgPlumber {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgMason {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgAc {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 837px;
+}
+.bgPlumber {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgPaint {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.bgMotor {
+    margin: 11px 0 0 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+}
+.side {
+    width: 100%;
+    padding-top: 23px;
+}
+.form {
+    width: 94%;
+    height: 490px;
+    position: unset;
+    padding: 24px 0;
+    margin: 16px auto;
+}
+
+.formFooter {
+    display: none;
+}
+.service {
+    height: 886px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    section {
+    height: 578px;
+    background-attachment: fixed;
+}
+    p.electrician {
+     width: unset; 
+ }
+    input[type="text"] {
+    width: 58%;
+}
+    input[type="tel"] {
+    width: 58%;
+}
+   input[type="email"] {
+    width: 58%;
+}
+    textarea{
+    width: 58%
+}
+ input[type="submit"] {
+    width: 20%;
+}
+.side {
+    width: 44%;
+    display: inline-block;
+}
+.form {
+    right: -49px;
+}
+
+/*Contact US*/
+
+body{
+    
+}
+section.contactUs {
+    height: 600px;
+    background:unset;
+    background-color: #013037;
+}
+/*#form-container{
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 475px;
+    transform: translate(-50%, -50%);
+    background-image: url(../images/renovate.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px #000;
+
+}
+
+.form {
+    width: 400px;
+    height: 530px;
+    position: absolute;
+    right: 50px;
+    top: -15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #000;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+
+.form h1{
+    text-align: center;
+    font-family: fantasy;
+    color: #0cf;
+}
+
+.form input[type=text]:nth-child(2) {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.form input[type=text], .form input[type=password], .form input[type=number], .form input[type=email], .form textarea {
+    padding: 10px 15px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+    font-family: cursive;
+}
+
+.form input[type=submit]{
+    width: 250px;
+    background-color: #0cf;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: monsterrat-Regular;
+    color: #fff;
+    padding: 10px 0px;
+    height: auto;
+}
+
+.formFooter{
+    width: 100%;
+    height: 90px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #eee;
+    text-align: center;
+    font-family: cursive;
+    color: #aaa;
+}
+
+
+
+
+
+
+.service {
+    height: 635px;
+    background-image: url(http://images.ientrymail.com/ps-tutor/www/tutorials/Christmas2009/1.jpg);
+    background-size: cover;
+}
+.bg {
+    background-image: url(../images/carpenter.jpg);
+    height: 500px;
+    margin: 63px auto;
+    width: 93%;
+    background-size: cover;
+    position: relative;
+}
+.side {
+    width: 60%;
+    display: inline-block;
+}
+
+h1.electrician::after {
+    content: "";
+    background-color: black;
+    width: 21%;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 19px;
+}
+*/

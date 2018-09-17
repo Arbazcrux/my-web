@@ -1,0 +1,31 @@
+div.bgColor {
+    background-color: #F3F8FA;
+    padding-top: unset;
+}
+.electration{
+	background-image: url(../images/electration.jpg);
+}
+.plumber{
+	background-image: url(../images/plumber.jpg);
+}
+.ac{
+	background-image: url(../images/acrepair.png);
+}
+.motor{
+	background-image: url(../images/thumbnail.jpg);
+}
+.electronic{
+	background-image: url(../images/electronic.jpg);
+}
+.painter{
+	background-image: url(../images/painter.jpg);
+}
+.mason{
+	background-image: url(../images/mason.jpg);
+}
+.carpenter{
+	background-image: url(../images/carpenter.jpg);
+}
+span.break.fontSize {
+    font-size: 20px;
+}
